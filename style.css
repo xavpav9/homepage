@@ -35,6 +35,7 @@ a:hover {
 
 .header {
   position: sticky;
+  top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,14 +89,16 @@ a:hover {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-content: center;
-  align-items: center;
   gap: 2vw;
   margin: 20px 2vw;
 
   & > a {
     cursor: pointer;
     color: black;
+
+    width: 450px;
   }
 
   & > a > h3 {
@@ -103,12 +106,11 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
     font-size: 2rem;
-
-    width: 28vw;
-    height: 14vw;
-
-    background-size: 28vw;
+    text-align: center;
+    height: 225px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(255 255 255 / 0.6);
     background-blend-mode: lighten;
@@ -119,6 +121,7 @@ a:hover {
   & > a > p {
     text-align: center;
     margin: 1rem 0px;
+    padding: 0px 5px;
   }
 
   & > * {
@@ -126,8 +129,9 @@ a:hover {
     border-radius: 5px;
   }
     
-  .recipes h3 {
-    background-image: url("images/odin-recipes.png");
-    text-align: center;
-  }
+  .recipes h3 { background-image: url("images/odin-recipes.png"); }
+  .landing-page h3 { background-image: url("images/odin-landing-page.png"); }
+  .rock-paper-scissors h3 { background-image: url("images/odin-rock-paper-scissors.png"); }
+  .etch-a-sketch h3 { background-image: url("images/odin-etch-a-sketch.png"); }
+  .calculator h3 { background-image: url("images/odin-calculator.png"); }
 }
