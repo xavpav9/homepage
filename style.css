@@ -20,6 +20,13 @@ html * {
   font-family: inherit;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
 h1 {
   font-family: "Monofonto", Roboto, system-ui, serif;
 }
@@ -64,6 +71,7 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 300px;
 
   padding: 40px 20px;
   background-color: lightgrey;
@@ -82,7 +90,7 @@ a:hover {
 
   img {
     width: 300px;
-    heigth: auto;
+    height: auto;
   }
 }
 
@@ -143,4 +151,19 @@ a:hover {
 
   .games-minesweeper h3 { background-image: url("images/games/minesweeper.png"); }
   .games-countdown h3 { background-image: url("images/games/countdown.png"); }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+
+  color: white;
+  background-color: #000066;
+  height: 3.5rem;
+  font-size: 1.2rem;
+  & > * {
+    margin: 0px 40px;
+  }
 }
