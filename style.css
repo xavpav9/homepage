@@ -140,4 +140,7 @@ a:hover {
 
   .other-stopwatch h3 { background-image: url("images/other/stopwatch.png"); }
   .other-3-letters h3 { background-image: url("images/other/3-letters.png"); }
+
+  .games-minesweeper h3 { background-image: url("images/games/minesweeper.png"); }
+  .games-countdown h3 { background-image: url("images/games/countdown.png"); }
 }
