@@ -47,10 +47,10 @@ a:hover {
   justify-content: center;
   align-items: center;
 
-  padding: 4px 8px;
+  padding: 20px 8px;
   background-color: #000066;
   color: #fff;
-  height: 4rem;
+  text-align: center;
 
   h1 {
     margin-right: auto;
@@ -61,6 +61,7 @@ a:hover {
   .links {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 40px;
     margin-right: 3vw;
     font-size: 1.2rem;
@@ -71,13 +72,12 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 300px;
 
   padding: 40px 20px;
   background-color: lightgrey;
 
   .text {
-    max-width: 30vw;
+    max-width: 40vw;
     h2 {
       margin-bottom: 20px;
       font-size: 3rem;
@@ -118,7 +118,7 @@ a:hover {
     font-size: 2rem;
     text-align: center;
     height: 225px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: rgba(255 255 255 / 0.6);
     background-blend-mode: lighten;
@@ -187,12 +187,65 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
+  text-align: center;
 
   color: white;
   background-color: #000066;
-  height: 3.5rem;
   font-size: 1.2rem;
+  padding: 15px 8px;
   & > * {
     margin: 0px 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+
+    h1 {
+      margin: auto;
+      margin-bottom: 20px;
+    }
+
+    .links {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    position: static;
+
+    .links {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title {
+    flex-direction: column;
+    gap: 40px;
+
+    .text {
+      max-width: 80vw;
+    }
+  }
+
+  .cards {
+    gap: 40px;
+
+    & > a {
+      width: 80vw;
+    }
+
+    & > a > h3 {
+      height: 40.5vw;
+    }
   }
 }
