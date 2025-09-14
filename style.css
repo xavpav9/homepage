@@ -40,7 +40,7 @@ a:hover {
   align-items: center;
 
   padding: 4px 8px;
-  background-color: #000088;
+  background-color: #000066;
   color: #fff;
   height: 4rem;
 
@@ -56,5 +56,28 @@ a:hover {
     gap: 20px;
     margin-right: 3vw;
     font-size: 1.2rem;
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 40px 20px;
+  background-color: lightgrey;
+
+  .text h2 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+  }
+  
+  .text p {
+    font-size: 1.2rem;
+  }
+
+  img {
+    width: 300px;
+    heigth: auto;
   }
 }
