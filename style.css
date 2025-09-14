@@ -53,7 +53,7 @@ a:hover {
   .links {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     margin-right: 3vw;
     font-size: 1.2rem;
   }
@@ -67,13 +67,16 @@ a:hover {
   padding: 40px 20px;
   background-color: lightgrey;
 
-  .text h2 {
-    margin-bottom: 20px;
-    font-size: 3rem;
-  }
-  
-  .text p {
-    font-size: 1.2rem;
+  .text {
+    max-width: 30vw;
+    h2 {
+      margin-bottom: 20px;
+      font-size: 3rem;
+    }
+    
+    p {
+      font-size: 1.2rem;
+    }
   }
 
   img {
