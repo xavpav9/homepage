@@ -137,4 +137,7 @@ a:hover {
 
   .learning-regex h3 { background-image: url("images/learning/regex.png"); }
   .learning-forms h3 { background-image: url("images/learning/forms.png"); }
+
+  .other-stopwatch h3 { background-image: url("images/other/stopwatch.png"); }
+  .other-3-letters h3 { background-image: url("images/other/3-letters.png"); }
 }
