@@ -21,7 +21,7 @@ html * {
 }
 
 h1 {
-  font-family: "Monofonto";
+  font-family: "Monofonto", Roboto, system-ui, serif;
 }
 
 a:visited, a:active, a:link {
@@ -129,9 +129,9 @@ a:hover {
     border-radius: 5px;
   }
     
-  .recipes h3 { background-image: url("images/odin-recipes.png"); }
-  .landing-page h3 { background-image: url("images/odin-landing-page.png"); }
-  .rock-paper-scissors h3 { background-image: url("images/odin-rock-paper-scissors.png"); }
-  .etch-a-sketch h3 { background-image: url("images/odin-etch-a-sketch.png"); }
-  .calculator h3 { background-image: url("images/odin-calculator.png"); }
+  .odin-recipes h3 { background-image: url("images/odin-recipes.png"); }
+  .odin-landing-page h3 { background-image: url("images/odin-landing-page.png"); }
+  .odin-rock-paper-scissors h3 { background-image: url("images/odin-rock-paper-scissors.png"); }
+  .odin-etch-a-sketch h3 { background-image: url("images/odin-etch-a-sketch.png"); }
+  .odin-calculator h3 { background-image: url("images/odin-calculator.png"); }
 }
