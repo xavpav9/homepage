@@ -200,6 +200,7 @@ a:hover {
 
 @media screen and (max-width: 1000px) {
   .header {
+    position: static;
     flex-direction: column;
 
     h1 {
