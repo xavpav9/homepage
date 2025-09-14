@@ -134,4 +134,7 @@ a:hover {
   .odin-rock-paper-scissors h3 { background-image: url("images/odin/rock-paper-scissors.png"); }
   .odin-etch-a-sketch h3 { background-image: url("images/odin/etch-a-sketch.png"); }
   .odin-calculator h3 { background-image: url("images/odin/calculator.png"); }
+
+  .learning-regex h3 { background-image: url("images/learning/regex.png"); }
+  .learning-forms h3 { background-image: url("images/learning/forms.png"); }
 }
