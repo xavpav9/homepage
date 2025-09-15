@@ -230,6 +230,18 @@ a:hover {
       margin-right: 0px;
     }
   }
+
+  .cards {
+    gap: 40px;
+
+    & > a {
+      width: 70vw;
+    }
+
+    & > a > h3 {
+      height: 30vw;
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -257,8 +269,6 @@ a:hover {
   }
 
   .cards {
-    gap: 40px;
-
     & > a {
       width: 80vw;
     }
