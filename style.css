@@ -141,12 +141,10 @@ a:hover {
   & > * {
     border: 5px solid black;
     border-radius: 5px;
-    opacity: 0.9;
 
-    transition: box-shadow 0.3s, opacity 0.3s;
+    transition: box-shadow 0.3s;
     &:hover {
       box-shadow: 0 0 15px #0000ff;
-      opacity: 1;
     }
   }
     
