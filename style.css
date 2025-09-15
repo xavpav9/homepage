@@ -209,6 +209,12 @@ a:hover {
   & > * {
     margin: 0px 40px;
   }
+  img {
+    position: relative;
+    top: 0.3rem;
+    width: 1.4rem;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 1000px) {
