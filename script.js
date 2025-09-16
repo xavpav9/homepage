@@ -1,8 +1,9 @@
 const navBtn = document.querySelector(".nav-dropdown");
 const headerLinks = document.querySelector(".links");
+let currentRotation = 0;
 
 navBtn.addEventListener("click", evt => {
-  const currentRotation = +getComputedStyle(navBtn).rotate.split("deg")[0];
-  navBtn.style.rotate = `${currentRotation + 180}deg`;
+  currentRotation += 180;
+  navBtn.style.rotate = `${currentRotation}deg`;
   headerLinks.classList.toggle("open");
 });
