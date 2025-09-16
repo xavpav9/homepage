@@ -1,18 +1,8 @@
-const randomBtn = document.querySelector(".random button");
-const websites = ["minesweeper",
-  "countdown",
-  "RegExp",
-  "forms",
-  "odin-recipes",
-  "odin-landing-page",
-  "odin-rock-paper-scissors",
-  "odin-etch-a-sketch",
-  "odin-calculator",
-  "stopwatch",
-  "3-letters",
-]
+const navBtn = document.querySelector(".nav-dropdown");
+const headerLinks = document.querySelector(".links");
 
-randomBtn.addEventListener("click", evt => {
-  const link = `https://xavpav9.github.io/${websites[Math.floor(Math.random() * websites.length)]}`
-  window.open(link, "_blank");
+navBtn.addEventListener("click", evt => {
+  const currentRotation = +getComputedStyle(navBtn).rotate.split("deg")[0];
+  navBtn.style.rotate = `${currentRotation + 180}deg`;
+  headerLinks.classList.toggle("open");
 });
