@@ -59,12 +59,14 @@ a:hover {
   }
 
   .links {
+    --links-font-size: 1.2rem;
+    --links-gaps: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: var(--links-gaps);
     margin-right: 3vw;
-    font-size: 1.2rem;
+    font-size: var(--links-font-size);
   }
 
   .nav-dropdown {
@@ -258,13 +260,14 @@ a:hover {
     }
 
     .links {
-      display: none;
       flex-direction: column;
       gap: 20px;
-      height: 0px;
+      max-height: 0px;
+      transition: max-height 0.3s ease-out;
+      overflow: hidden;
 
       &.open {
-        height: auto;
+        max-height: calc(var(--links-font-size) * 4 + var(--links-gaps) * 3);
         display: flex;
       }
     }
