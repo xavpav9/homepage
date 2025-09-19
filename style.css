@@ -81,6 +81,7 @@ a:hover {
 
   padding: 40px 20px;
   background-color: lightgrey;
+  min-height: 300px;
 
   .text {
     max-width: 40vw;
