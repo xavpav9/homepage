@@ -130,7 +130,7 @@ a:hover {
     font-size: 2rem;
     text-align: center;
     height: 228px;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-color: rgba(255 255 255 / 0.6);
@@ -160,6 +160,7 @@ a:hover {
   .odin-rock-paper-scissors h3 { background-image: url("images/odin/rock-paper-scissors.png"); }
   .odin-etch-a-sketch h3 { background-image: url("images/odin/etch-a-sketch.png"); }
   .odin-calculator h3 { background-image: url("images/odin/calculator.png"); }
+  .odin-sign-up-form h3 { background-image: url("images/odin/sign-up-form.png"); }
 
   .learning-regex h3 { background-image: url("images/learning/regex.png"); }
   .learning-forms h3 { background-image: url("images/learning/forms.png"); }
