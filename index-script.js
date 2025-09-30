@@ -8,6 +8,7 @@ const websites = ["minesweeper",
   "odin-rock-paper-scissors",
   "odin-etch-a-sketch",
   "odin-calculator",
+  "odin-sign-up-form",
   "stopwatch",
   "3-letters",
 ]
