@@ -161,6 +161,7 @@ a:hover {
   .odin-etch-a-sketch h3 { background-image: url("images/odin/etch-a-sketch.png"); }
   .odin-calculator h3 { background-image: url("images/odin/calculator.png"); }
   .odin-sign-up-form h3 { background-image: url("images/odin/sign-up-form.png"); }
+  .odin-admin-dashboard h3 { background-image: url("images/odin/admin-dashboard.png"); }
 
   .learning-regex h3 { background-image: url("images/learning/regex.png"); }
   .learning-forms h3 { background-image: url("images/learning/forms.png"); }
