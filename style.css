@@ -107,18 +107,17 @@ a:hover {
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 550px));
   justify-content: center;
   align-content: center;
+
   gap: 2vw;
-  margin: 20px 2vw;
+  margin: 20px 2vw 60px 2vw;
 
   & > a {
     cursor: pointer;
     color: black;
-
-    width: 450px;
   }
 
   & > a > h3 {
@@ -129,7 +128,7 @@ a:hover {
 
     font-size: 2rem;
     text-align: center;
-    height: 228px;
+    aspect-ratio: calc(450/228);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -241,15 +240,8 @@ a:hover {
   }
 
   .cards {
-    gap: 40px;
-
-    & > a {
-      width: 70vw;
-    }
-
-    & > a > h3 {
-      height: 35.5vw;
-    }
+    row-gap: 40px;
+    grid-template-columns: 80vw;
   }
 }
 
@@ -306,12 +298,6 @@ a:hover {
   }
 
   .cards {
-    & > a {
-      width: 80vw;
-    }
-
-    & > a > h3 {
-      height: 40.5vw;
-    }
+    grid-template-columns: 90vw;
   }
 }
