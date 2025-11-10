@@ -163,6 +163,7 @@ a:hover {
   .odin-admin-dashboard h3 { background-image: url("images/odin/admin-dashboard.png"); }
   .odin-library h3 { background-image: url("images/odin/library.png"); }
   .odin-tic-tac-toe h3 { background-image: url("images/odin/tic-tac-toe.png"); }
+  .odin-restaurant-page h3 { background-image: url("images/odin/restaurant-page.png"); }
 
   .learning-regex h3 { background-image: url("images/learning/regex.png"); }
   .learning-forms h3 { background-image: url("images/learning/forms.png"); }

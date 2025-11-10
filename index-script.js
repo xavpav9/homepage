@@ -12,6 +12,7 @@ const websites = ["minesweeper",
   "odin-admin-dashboard",
   "odin-library",
   "odin-tic-tac-toe",
+  "odin-restaurant-page",
   "stopwatch",
   "3-letters",
 ]
